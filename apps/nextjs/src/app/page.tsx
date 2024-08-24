@@ -1,7 +1,3 @@
-import Image from "next/image";
-
-export default function Home() {
-  return (
-    <h1 className="text-red-500">hello</h1>
-  );
+export default function Page() {
+  return <h1 className="text-red-600">Turbo repo setup</h1>
 }
