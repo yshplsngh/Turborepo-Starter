@@ -1,5 +1,5 @@
 {
-  "name": "Nodejs-Nextjs-turborepo-starter",
+  "name": "nodejsnextjsturborepostarter",
   "private": true,
   "scripts": {
     "build": "turbo build",
