@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint:check": "next lint",
+    "lint:fix": "eslint --max-warnings 0 --config .eslintrc.js . --fix"
   },
   "dependencies": {
     "@repo/ui": "*",

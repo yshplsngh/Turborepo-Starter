@@ -6,4 +6,9 @@ module.exports = {
   parserOptions: {
     project: true,
   },
+  ignorePatterns: [
+    "next.config.mjs",
+    "postcss.config.mjs",
+    // Add any other configuration files you want to exclude
+  ],
 };
