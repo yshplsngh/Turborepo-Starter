@@ -12,6 +12,7 @@
   "dependencies": {
     "@repo/ui": "*",
     "@repo/logger": "*",
+    "@repo/database": "*",
     "react": "^18",
     "react-dom": "^18",
     "next": "14.2.6"
