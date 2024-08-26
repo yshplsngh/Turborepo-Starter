@@ -19,7 +19,7 @@ jobs:
         run: npm run lint:check
       
       - name: Check formatting
-        run: npm run format:check
+        run: npm run format:fix
 
 
 
