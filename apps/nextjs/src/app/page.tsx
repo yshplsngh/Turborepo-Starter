@@ -9,11 +9,15 @@ export default async function Page() {
       return { error }
     }
   }
-  await getTodos()
+          await getTodos()
 
-  log('papa')
+      log('papa')
   return (
-    <div className="flex min-h-screen flex-col">
+
+
+    
+    <div
+     className="flex min-h-screen flex-col">
       {/* Header Section */}
       <header className="flex items-center justify-between bg-gray-900 p-5 text-white">
         <div className="text-2xl font-bold">Turborepo Starter</div>
