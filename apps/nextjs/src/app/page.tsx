@@ -1,17 +1,17 @@
-import { log } from '@repo/logger';
-import { prisma } from '@repo/database';
+import { log } from '@repo/logger'
+import { prisma } from '@repo/database'
 export default async function Page() {
   async function getTodos() {
     try {
-      const todos = await prisma.user.count();
-      log(todos);
+      const todos = await prisma.user.count()
+      log(todos)
     } catch (error) {
-      return { error };
+      return { error }
     }
   }
-  await getTodos();
+  await getTodos()
 
-  log('papa');
+  log('papa')
   return (
     <div className="flex min-h-screen flex-col">
       {/* Header Section */}
@@ -84,5 +84,5 @@ export default async function Page() {
         <p>&copy; 2024 Turborepo Starter. All rights reserved.</p>
       </footer>
     </div>
-  );
+  )
 }
