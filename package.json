@@ -12,7 +12,8 @@
   "devDependencies": {
     "prettier": "^3.3.3",
     "turbo": "^2.0.14",
-    "typescript": "^5.5.4"
+    "typescript": "^5.5.4",
+        "prettier-plugin-tailwindcss": "^0.6.6"
   },
   "engines": {
     "node": ">=18"
@@ -21,8 +22,5 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ],
-  "dependencies": {
-    "prettier-plugin-tailwindcss": "^0.6.6"
-  }
+  ]
 }
