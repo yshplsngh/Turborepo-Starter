@@ -4,23 +4,16 @@
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
-    "prepare": "husky install",
     "lint:check": "turbo lint:check",
     "lint:fix": "turbo lint:fix",
     "format:check": "prettier --check \"**/*.{ts,tsx,json,md}\"",
     "format:fix": "prettier --write \"**/*.{ts,tsx,json,md}\""
   },
   "devDependencies": {
-    "husky": "^9.1.5",
-    "lint-staged": "^15.2.9",
     "prettier": "^3.3.3",
-    "prettier-plugin-tailwindcss": "^0.6.6",
     "turbo": "^2.0.14",
-    "typescript": "^5.5.4"
-  },
-  "lint-staged": {
-    "*.{ts,tsx,js,jsx}": "eslint --fix",
-    "*.{ts,js,tsx,json,md}": "prettier --write"
+    "typescript": "^5.5.4",
+    "prettier-plugin-tailwindcss": "^0.6.6"
   },
   "engines": {
     "node": ">=18"
