@@ -7,13 +7,15 @@
     "lint:check": "turbo lint:check",
     "lint:fix": "turbo lint:fix",
     "format:check": "prettier --check \"**/*.{ts,tsx,json,md}\"",
-    "format:fix": "prettier --write \"**/*.{ts,tsx,json,md}\""
+    "format:fix": "prettier --write \"**/*.{ts,tsx,json,md}\"",
+    "prepare": "husky"
   },
   "devDependencies": {
+    "husky": "^9.1.5",
     "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.6",
     "turbo": "^2.0.14",
-    "typescript": "^5.5.4",
-    "prettier-plugin-tailwindcss": "^0.6.6"
+    "typescript": "^5.5.4"
   },
   "engines": {
     "node": ">=18"
