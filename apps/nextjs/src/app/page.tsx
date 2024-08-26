@@ -6,7 +6,7 @@ export default async function Page() {
       const todos = await prisma.user.count();
       console.log(todos);
     } catch (error) {
-      return { error };
+      console.log(error)
     }
   }
   await getTodos();
